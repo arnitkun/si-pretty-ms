@@ -1,7 +1,7 @@
 # si-pretty-ms:  [https://github.com/sindresorhus/pretty-ms],
 ##  Fork of pretty-ms returns the time string as per the SI standard.
 
-> Convert milliseconds to a human readable string: `1337000000` → `15d 11h 23m 20s`
+> Convert milliseconds to a human readable string: `1337000000` → `15 d 11 h 23 m 20 s`
 
 ## Install
 
@@ -38,7 +38,7 @@ prettyMilliseconds(100.400080, {formatSubMilliseconds: true})
 
 // Can be useful for time durations
 prettyMilliseconds(new Date(2014, 0, 1, 10, 40) - new Date(2014, 0, 1, 10, 5))
-//=> '35m'
+//=> '35 m'
 ```
 
 
@@ -86,7 +86,7 @@ Useful when you are showing a number of seconds spent on an operation and don't 
 Type: `boolean`<br>
 Default: `false`
 
-Only show the first unit: `1h 10m` → `~1h`.
+Only show the first unit: `1 h 10 m` → `~1 h`.
 
 Also ensures that `millisecondsDecimalDigits` and `secondsDecimalDigits` are both set to `0`.
 
@@ -102,7 +102,7 @@ Number of units to show. Setting `compact` to `true` overrides this option.
 Type: `boolean`<br>
 Default: `false`
 
-Use full-length units: `5h 1m 45s` → `5 hours 1 minute 45 seconds`
+Use full-length units: `5 h 1 m 45 s` → `5 hours 1 minute 45 seconds`
 
 ##### separateMilliseconds
 
