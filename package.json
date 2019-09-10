@@ -1,0 +1,47 @@
+{
+	"name": "si-pretty-ms",
+	"version": "5.0.0",
+	"description": "Convert milliseconds to a human readable string: `1337000000` → `15 d 11 h 23 m 20 s`",
+	"license": "MIT",
+	"repository": "arnitkun/si-pretty-ms",
+	"author": {
+		"name": "Sindre Sorhus/Ankit Arun",
+		"email": "ankit.nitagartala@gmail.com"	
+	},
+	"engines": {
+		"node": ">=8"
+	},
+	"scripts": {
+		"test": "xo && ava && tsd"
+	},
+	"files": [
+		"index.js",
+		"index.d.ts"
+	],
+	"keywords": [
+		"pretty",
+		"prettify",
+		"human",
+		"humanize",
+		"humanized",
+		"readable",
+		"time",
+		"ms",
+		"milliseconds",
+		"duration",
+		"period",
+		"range",
+		"text",
+		"string",
+		"number",
+		"hrtime"
+	],
+	"dependencies": {
+		"parse-ms": "^2.1.0"
+	},
+	"devDependencies": {
+		"ava": "^1.4.1",
+		"tsd": "^0.7.2",
+		"xo": "^0.24.0"
+	}
+}
