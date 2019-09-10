@@ -1,8 +1,7 @@
-# si-pretty-ms: Fork of pretty-ms [https://github.com/sindresorhus/pretty-ms], returns the time string as 
-# per SI standard
+# si-pretty-ms:  [https://github.com/sindresorhus/pretty-ms],
+##  Fork of pretty-ms returns the time string as per the SI standard.
 
 > Convert milliseconds to a human readable string: `1337000000` → `15d 11h 23m 20s`
-
 
 ## Install
 
